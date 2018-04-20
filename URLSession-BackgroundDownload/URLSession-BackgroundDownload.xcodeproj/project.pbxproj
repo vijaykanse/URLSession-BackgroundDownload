@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBE1CD83208A799800F92A8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE1CD82208A799800F92A8A /* AppDelegate.swift */; };
+		FBE1CD85208A799800F92A8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE1CD84208A799800F92A8A /* ViewController.swift */; };
+		FBE1CD88208A799800F92A8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBE1CD86208A799800F92A8A /* Main.storyboard */; };
+		FBE1CD8A208A799800F92A8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBE1CD89208A799800F92A8A /* Assets.xcassets */; };
+		FBE1CD8D208A799800F92A8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBE1CD8B208A799800F92A8A /* LaunchScreen.storyboard */; };
+		FBE1CD98208A799800F92A8A /* URLSession_BackgroundDownloadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE1CD97208A799800F92A8A /* URLSession_BackgroundDownloadTests.swift */; };
+		FBE1CDA3208A799800F92A8A /* URLSession_BackgroundDownloadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE1CDA2208A799800F92A8A /* URLSession_BackgroundDownloadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBE1CD94208A799800F92A8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBE1CD77208A799800F92A8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBE1CD7E208A799800F92A8A;
+			remoteInfo = "URLSession-BackgroundDownload";
+		};
+		FBE1CD9F208A799800F92A8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBE1CD77208A799800F92A8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBE1CD7E208A799800F92A8A;
+			remoteInfo = "URLSession-BackgroundDownload";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FBE1CD7F208A799800F92A8A /* URLSession-BackgroundDownload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "URLSession-BackgroundDownload.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBE1CD82208A799800F92A8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBE1CD84208A799800F92A8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FBE1CD87208A799800F92A8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBE1CD89208A799800F92A8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBE1CD8C208A799800F92A8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBE1CD8E208A799800F92A8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBE1CD93208A799800F92A8A /* URLSession-BackgroundDownloadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "URLSession-BackgroundDownloadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBE1CD97208A799800F92A8A /* URLSession_BackgroundDownloadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSession_BackgroundDownloadTests.swift; sourceTree = "<group>"; };
+		FBE1CD99208A799800F92A8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBE1CD9E208A799800F92A8A /* URLSession-BackgroundDownloadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "URLSession-BackgroundDownloadUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBE1CDA2208A799800F92A8A /* URLSession_BackgroundDownloadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSession_BackgroundDownloadUITests.swift; sourceTree = "<group>"; };
+		FBE1CDA4208A799800F92A8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBE1CD7C208A799800F92A8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBE1CD90208A799800F92A8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBE1CD9B208A799800F92A8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBE1CD76208A799800F92A8A = {
+			isa = PBXGroup;
+			children = (
+				FBE1CD81208A799800F92A8A /* URLSession-BackgroundDownload */,
+				FBE1CD96208A799800F92A8A /* URLSession-BackgroundDownloadTests */,
+				FBE1CDA1208A799800F92A8A /* URLSession-BackgroundDownloadUITests */,
+				FBE1CD80208A799800F92A8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBE1CD80208A799800F92A8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBE1CD7F208A799800F92A8A /* URLSession-BackgroundDownload.app */,
+				FBE1CD93208A799800F92A8A /* URLSession-BackgroundDownloadTests.xctest */,
+				FBE1CD9E208A799800F92A8A /* URLSession-BackgroundDownloadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBE1CD81208A799800F92A8A /* URLSession-BackgroundDownload */ = {
+			isa = PBXGroup;
+			children = (
+				FBE1CD82208A799800F92A8A /* AppDelegate.swift */,
+				FBE1CD84208A799800F92A8A /* ViewController.swift */,
+				FBE1CD86208A799800F92A8A /* Main.storyboard */,
+				FBE1CD89208A799800F92A8A /* Assets.xcassets */,
+				FBE1CD8B208A799800F92A8A /* LaunchScreen.storyboard */,
+				FBE1CD8E208A799800F92A8A /* Info.plist */,
+			);
+			path = "URLSession-BackgroundDownload";
+			sourceTree = "<group>";
+		};
+		FBE1CD96208A799800F92A8A /* URLSession-BackgroundDownloadTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBE1CD97208A799800F92A8A /* URLSession_BackgroundDownloadTests.swift */,
+				FBE1CD99208A799800F92A8A /* Info.plist */,
+			);
+			path = "URLSession-BackgroundDownloadTests";
+			sourceTree = "<group>";
+		};
+		FBE1CDA1208A799800F92A8A /* URLSession-BackgroundDownloadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FBE1CDA2208A799800F92A8A /* URLSession_BackgroundDownloadUITests.swift */,
+				FBE1CDA4208A799800F92A8A /* Info.plist */,
+			);
+			path = "URLSession-BackgroundDownloadUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBE1CD7E208A799800F92A8A /* URLSession-BackgroundDownload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBE1CDA7208A799800F92A8A /* Build configuration list for PBXNativeTarget "URLSession-BackgroundDownload" */;
+			buildPhases = (
+				FBE1CD7B208A799800F92A8A /* Sources */,
+				FBE1CD7C208A799800F92A8A /* Frameworks */,
+				FBE1CD7D208A799800F92A8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "URLSession-BackgroundDownload";
+			productName = "URLSession-BackgroundDownload";
+			productReference = FBE1CD7F208A799800F92A8A /* URLSession-BackgroundDownload.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBE1CD92208A799800F92A8A /* URLSession-BackgroundDownloadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBE1CDAA208A799800F92A8A /* Build configuration list for PBXNativeTarget "URLSession-BackgroundDownloadTests" */;
+			buildPhases = (
+				FBE1CD8F208A799800F92A8A /* Sources */,
+				FBE1CD90208A799800F92A8A /* Frameworks */,
+				FBE1CD91208A799800F92A8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBE1CD95208A799800F92A8A /* PBXTargetDependency */,
+			);
+			name = "URLSession-BackgroundDownloadTests";
+			productName = "URLSession-BackgroundDownloadTests";
+			productReference = FBE1CD93208A799800F92A8A /* URLSession-BackgroundDownloadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FBE1CD9D208A799800F92A8A /* URLSession-BackgroundDownloadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBE1CDAD208A799800F92A8A /* Build configuration list for PBXNativeTarget "URLSession-BackgroundDownloadUITests" */;
+			buildPhases = (
+				FBE1CD9A208A799800F92A8A /* Sources */,
+				FBE1CD9B208A799800F92A8A /* Frameworks */,
+				FBE1CD9C208A799800F92A8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBE1CDA0208A799800F92A8A /* PBXTargetDependency */,
+			);
+			name = "URLSession-BackgroundDownloadUITests";
+			productName = "URLSession-BackgroundDownloadUITests";
+			productReference = FBE1CD9E208A799800F92A8A /* URLSession-BackgroundDownloadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBE1CD77208A799800F92A8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = vkanse;
+				TargetAttributes = {
+					FBE1CD7E208A799800F92A8A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FBE1CD92208A799800F92A8A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FBE1CD7E208A799800F92A8A;
+					};
+					FBE1CD9D208A799800F92A8A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FBE1CD7E208A799800F92A8A;
+					};
+				};
+			};
+			buildConfigurationList = FBE1CD7A208A799800F92A8A /* Build configuration list for PBXProject "URLSession-BackgroundDownload" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBE1CD76208A799800F92A8A;
+			productRefGroup = FBE1CD80208A799800F92A8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBE1CD7E208A799800F92A8A /* URLSession-BackgroundDownload */,
+				FBE1CD92208A799800F92A8A /* URLSession-BackgroundDownloadTests */,
+				FBE1CD9D208A799800F92A8A /* URLSession-BackgroundDownloadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBE1CD7D208A799800F92A8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE1CD8D208A799800F92A8A /* LaunchScreen.storyboard in Resources */,
+				FBE1CD8A208A799800F92A8A /* Assets.xcassets in Resources */,
+				FBE1CD88208A799800F92A8A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBE1CD91208A799800F92A8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBE1CD9C208A799800F92A8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBE1CD7B208A799800F92A8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE1CD85208A799800F92A8A /* ViewController.swift in Sources */,
+				FBE1CD83208A799800F92A8A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBE1CD8F208A799800F92A8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE1CD98208A799800F92A8A /* URLSession_BackgroundDownloadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBE1CD9A208A799800F92A8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE1CDA3208A799800F92A8A /* URLSession_BackgroundDownloadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBE1CD95208A799800F92A8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBE1CD7E208A799800F92A8A /* URLSession-BackgroundDownload */;
+			targetProxy = FBE1CD94208A799800F92A8A /* PBXContainerItemProxy */;
+		};
+		FBE1CDA0208A799800F92A8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBE1CD7E208A799800F92A8A /* URLSession-BackgroundDownload */;
+			targetProxy = FBE1CD9F208A799800F92A8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBE1CD86208A799800F92A8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBE1CD87208A799800F92A8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBE1CD8B208A799800F92A8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBE1CD8C208A799800F92A8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBE1CDA5208A799800F92A8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBE1CDA6208A799800F92A8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBE1CDA8208A799800F92A8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "URLSession-BackgroundDownload/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vkanse.URLSession-BackgroundDownload";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBE1CDA9208A799800F92A8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "URLSession-BackgroundDownload/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vkanse.URLSession-BackgroundDownload";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FBE1CDAB208A799800F92A8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "URLSession-BackgroundDownloadTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vkanse.URLSession-BackgroundDownloadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/URLSession-BackgroundDownload.app/URLSession-BackgroundDownload";
+			};
+			name = Debug;
+		};
+		FBE1CDAC208A799800F92A8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "URLSession-BackgroundDownloadTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vkanse.URLSession-BackgroundDownloadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/URLSession-BackgroundDownload.app/URLSession-BackgroundDownload";
+			};
+			name = Release;
+		};
+		FBE1CDAE208A799800F92A8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "URLSession-BackgroundDownloadUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vkanse.URLSession-BackgroundDownloadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "URLSession-BackgroundDownload";
+			};
+			name = Debug;
+		};
+		FBE1CDAF208A799800F92A8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "URLSession-BackgroundDownloadUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vkanse.URLSession-BackgroundDownloadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "URLSession-BackgroundDownload";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBE1CD7A208A799800F92A8A /* Build configuration list for PBXProject "URLSession-BackgroundDownload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBE1CDA5208A799800F92A8A /* Debug */,
+				FBE1CDA6208A799800F92A8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBE1CDA7208A799800F92A8A /* Build configuration list for PBXNativeTarget "URLSession-BackgroundDownload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBE1CDA8208A799800F92A8A /* Debug */,
+				FBE1CDA9208A799800F92A8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBE1CDAA208A799800F92A8A /* Build configuration list for PBXNativeTarget "URLSession-BackgroundDownloadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBE1CDAB208A799800F92A8A /* Debug */,
+				FBE1CDAC208A799800F92A8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBE1CDAD208A799800F92A8A /* Build configuration list for PBXNativeTarget "URLSession-BackgroundDownloadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBE1CDAE208A799800F92A8A /* Debug */,
+				FBE1CDAF208A799800F92A8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBE1CD77208A799800F92A8A /* Project object */;
+}
