@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB19228C208A8A02008B9556 /* BGDownloadController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB19228B208A8A02008B9556 /* BGDownloadController.swift */; };
 		FBE1CD83208A799800F92A8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE1CD82208A799800F92A8A /* AppDelegate.swift */; };
 		FBE1CD85208A799800F92A8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE1CD84208A799800F92A8A /* ViewController.swift */; };
 		FBE1CD88208A799800F92A8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBE1CD86208A799800F92A8A /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB19228B208A8A02008B9556 /* BGDownloadController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BGDownloadController.swift; sourceTree = "<group>"; };
 		FBE1CD7F208A799800F92A8A /* URLSession-BackgroundDownload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "URLSession-BackgroundDownload.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBE1CD82208A799800F92A8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBE1CD84208A799800F92A8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		FBE1CD81208A799800F92A8A /* URLSession-BackgroundDownload */ = {
 			isa = PBXGroup;
 			children = (
+				FB19228B208A8A02008B9556 /* BGDownloadController.swift */,
 				FBE1CD82208A799800F92A8A /* AppDelegate.swift */,
 				FBE1CD84208A799800F92A8A /* ViewController.swift */,
 				FBE1CD86208A799800F92A8A /* Main.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				FBE1CD85208A799800F92A8A /* ViewController.swift in Sources */,
 				FBE1CD83208A799800F92A8A /* AppDelegate.swift in Sources */,
+				FB19228C208A8A02008B9556 /* BGDownloadController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
